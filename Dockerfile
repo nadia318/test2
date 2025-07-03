@@ -1,5 +1,5 @@
 # Use a minimal base image
-FROM alpine
+FROM public.ecr.aws/docker/library/alpine:latest
 
 # Set the command to print "Hello, World!"
 CMD ["echo", "Hello, World!"]
